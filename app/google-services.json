@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "933983779136",
+    "project_id": "findmein-fc8ba",
+    "storage_bucket": "findmein-fc8ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933983779136:android:43ca51e2652919080fe2a5",
+        "android_client_info": {
+          "package_name": "com.example.findmein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933983779136-peeqneokqsgkbq16uivvp01noaoiql79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findmein",
+            "certificate_hash": "62b87518f3327ca6b83dfc3145b84dd6b3048b8e"
+          }
+        },
+        {
+          "client_id": "933983779136-11l29o6p8nm4ej7iu8drgtoljih363tv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTe3ZvGI8YUWUsEB0suMGsvhNE6f6a6Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933983779136-11l29o6p8nm4ej7iu8drgtoljih363tv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

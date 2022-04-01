@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_bg"
+    tools:context=".ProductDetails">
+
+    <TextView
+        android:id="@+id/tv_fecha2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Fecha: "
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tdescripcion" />
+
+    <TextView
+        android:id="@+id/tv_fecha"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Fecha: "
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tdescripcion" />
+
+    <TextView
+        android:id="@+id/trecompensa2"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Recompensa: $"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.624"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tdescripcion" />
+
+    <TextView
+        android:id="@+id/tcategoria"
+        android:layout_width="164dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fecha" />
+
+    <ImageView
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:text="Detalles de la publicacion"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/back2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back2" />
+
+    <ImageView
+        android:id="@+id/big_image"
+        android:layout_width="360dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/search_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/b1" />
+
+    <TextView
+        android:id="@+id/ttitulo"
+        android:layout_width="360dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/big_image" />
+
+    <TextView
+        android:id="@+id/tdescripcion"
+        android:layout_width="360dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="prodDesc"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ttitulo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="147dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buy_now_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Lo encontre!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_map"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/trecompensa"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tdescripcion" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/id_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="360dp"
+        android:layout_height="230dp"
+        android:background="@drawable/search_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tcategoria" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

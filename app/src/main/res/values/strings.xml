@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FindMeIn</string>
+    <string name="continuar">Continuar</string>
+    <string name="facebook_app_id">1275969636228259</string> <string name="fb_login_protocol_scheme">fb1275969636228259</string>
+</resources>
